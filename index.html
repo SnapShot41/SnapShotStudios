@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snap Shot Studios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="home">
+
+<!-- HERO / LOGO -->
+<header class="home-hero">
+    <img src="background1.png" alt="Snap Shot Studios Logo" class="home-logo">
+    <h1>Snap Shot Studios</h1>
+    <p class="home-tagline">Capturing Life One Snap at a Time</p>
+</header>
+
+<main>
+
+<!-- CAMERA BUTTON GRID -->
+<section class="camera-grid">
+
+    <!-- PORTRAITS — SHUTTER BUTTON -->
+    <a href="portraits.html" class="camera-btn">
+        <img src="Shutter.png" alt="Shutter Button">
+        <span>Portraits</span>
+    </a>
+
+    <!-- ATHLETES — APERTURE RING -->
+    <a href="athletes.html" class="camera-btn">
+        <img src="apaturebutton.png" alt="Aperture Ring">
+        <span>Athletes</span>
+    </a>
+
+    <!-- PAINTING WITH LIGHT — APERTURE BLADES -->
+    <a href="paintingwithlight.html" class="camera-btn">
+        <img src="apaturelens.png" alt="Aperture Blades">
+        <span>Painting With Light</span>
+    </a>
+
+    <!-- MEDIA DAY — MODE DIAL -->
+    <a href="mediaday.html" class="camera-btn">
+        <img src="modedial.png" alt="Mode Dial">
+        <span>Media Day</span>
+    </a>
+
+    <!-- GRAPHIC DESIGN — FOCUS RING -->
+    <a href="design.html" class="camera-btn">
+        <img src="focusring.png" alt="Lens Focus Ring">
+        <span>Graphic Design</span>
+    </a>
+
+    <!-- COMMERCIAL PHOTOGRAPHY — Sherlock knocker -->
+    <a href="design.html" class="camera-btn">
+        <img src="sherlock221.png" alt="Sherlock knocker">
+        <span>Commercial Photography</span>
+    </a>
+
+    <!-- ABOUT / CONTACT — VIEWFINDER -->
+    <a href="about.html" class="camera-btn">
+        <img src="viewfinder.png" alt="Viewfinder Frame">
+        <span>About / Contact</span>
+    </a>
+
+</section>
+
+<!-- ================= ABOUT SECTION ================= -->
+<section id="about" class="section">
+    <div class="container about-container">
+        <img src="artistphoto1.jpg" alt="Burleigh-Cleaver" class="about-photo">
+
+        <div class="about-text">
+            <h2>The Heart behind the Camera</h2>
+            <p>
+                I’m Burleigh‑Cleaver — Shooter1 — the eye behind Snap Shot Studios.
+
+                Thirty‑two years as a medic taught me how to stay steady when the world gets loud, how to read a room in seconds, and how to catch the details most people miss.
+
+                When I hung up the scrubs, I didn’t slow down — I shifted gears. I chased the creative fire I’d been carrying for years and earned my degree in Commercial Photography. Now I bring that same intensity, precision, and instinct into every frame I shoot.
+
+                I’m drawn to the moments that hit different — the quiet ones, the chaotic ones, the ones that punch you right in the chest. Fast‑moving scenes, raw emotion, real stories unfolding in real time… that’s where I live.
+
+                My goal is simple: make every snap feel unmistakably you. Bold. Honest. Unfiltered.
+                Art with a pulse.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ================= PORTFOLIO GALLERY ================= -->
+<section id="portfolio" class="section">
+    <div class="container">
+        <h2>Portfolio</h2>
+
+        <div class="gallery-grid">
+            <img src="SaxLite1corrected.png" alt="">
+            <img src="beninred.jpg" alt="">
+            <img src="WildWorld.png" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- ================= VIDEO SECTION ================= -->
+<section id="video" class="section">
+    <div class="container">
+        <h2>Video Work</h2>
+
+        <video controls width="100%">
+            <source src="football 2016.mp4" type="video/mp4">
+        </video>
+    </div>
+</section>
+
+<!-- ================= SERVICES SECTION ================= -->
+<section id="services" class="section">
+    <div class="container">
+        <h2>Services</h2>
+
+        <div class="card-grid">
+
+            <div class="card">
+                <img src="RaymondTwin.jpg" alt="">
+                <h3>Portraits</h3>
+                <p>“I think outside the box to create images that feel uniquely yours.”</p>
+            </div>
+
+            <div class="card">
+                <img src="MediaDay1.jpg" alt="">
+                <h3>Sports</h3>
+                <p>“I love capturing sports from angles most people don’t think to look from.”</p>
+            </div>
+
+            <div class="card">
+                <img src="filmstrip.jpg" alt="">
+                <h3>Lifestyle</h3>
+                <p>“I look beyond the obvious to make each image feel uniquely you.”</p>
+            </div>
+
+            <div class="card">
+                <img src="elyupclose.jpg" alt="">
+                <h3>Announcements</h3>
+                <p>“Let me help you surprise your loved ones.”</p>
+            </div>
+
+            <div class="card">
+                <img src="SaxLite5.png" alt="">
+                <h3>Music</h3>
+                <p>“Making Sound through Light.”</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ================= CONTACT FORM ================= -->
+<section id="contact" class="section">
+    <div class="container">
+        <h2>Book a Session</h2>
+        <p class="contact-intro">Let’s create something unforgettable. Send a message and I’ll get back to you soon.</p>
+
+        <form action="https://formsubmit.co/Shooter1@SnapShotStudios.net" method="POST" class="contact-form">
+
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="Name" placeholder="John Doe" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="Email" placeholder="you@example.com" required>
+
+            <label for="service">What type of session?</label>
+            <select id="service" name="Service">
+                <option value="Portraits">Portraits</option>
+                <option value="Sports">Sports</option>
+                <option value="Lifestyle">Lifestyle</option>
+                <option value="Event">Event Coverage</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="Message" rows="5" placeholder="Tell me about your vision..." required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="ss-footer">
+    <div class="footer-content">
+        <p>© Snap Shot Studios — Established 2022</p>
+
+        <div class="footer-links">
+            <a href="mailto:info@snapshotstudios.com">Shooter1@snapshotstudios.net</a>
+            <span class="divider">|</span>
+            <a href="tel:702-706-3983">702-706-3983</a>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://www.instagram.com/snapshotstudios2022" aria-label="Instagram" target="_blank">
+    <i class="fab fa-instagram"></i>
+</a>
+            <a href="https://www.facebook.com/snapshotstudios2022" aria-label="Facebook" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.tiktok.com/@snapshot.studios" aria-label="TikTok" target="_blank">
+    <i class="fab fa-tiktok"></i>
+</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
