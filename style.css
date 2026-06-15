@@ -744,3 +744,8 @@ body:not(.home) .camera-btn span {
 .painting-with-light-page a:hover {
     color: #F2EAFF;
 }
+
+/* Force black background ONLY on the Painting With Light page */
+.painting-with-light-page {
+    background-color: #000000 !important;
+}
