@@ -719,3 +719,28 @@ body:not(.home) .camera-btn img {
 body:not(.home) .camera-btn span {
     font-size: 1rem;
 }
+
+/* Painting With Light Page Text Color */
+.painting-text,
+.painting-with-light-page,
+.painting-content {
+    color: #D8D0FF; /* soft lavender‑gray */
+}
+
+/* Optional: headings in a slightly brighter lavender */
+.painting-with-light-page h1,
+.painting-with-light-page h2,
+.painting-with-light-page h3 {
+    color: #E6DEFF;
+}
+
+/* Optional: links with a gentle glow */
+.painting-with-light-page a {
+    color: #D8D0FF;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.painting-with-light-page a:hover {
+    color: #F2EAFF;
+}
